@@ -15,10 +15,10 @@ li {
 }
 
 .head--co {
-  position: relative;
   z-index: 2;
   height: 44px;
   margin: 0 auto;
+  position: relative;
   max-width: 980px;
 }
 
@@ -43,9 +43,81 @@ li {
 }
 
 .iphone-11-pro {
-  position: relative;
   z-index: 3;
   padding-top: 44px;
+}
+
+.iphone-11-pro__back {
+  position: relative;
+  height: 570px;
+  background-image: url("images/image1.png");
+  background-size: cover;
+}
+
+.iphone-11-pro__copy {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.iphone-11 {
+  z-index: 3;
+  padding-top: 10px;
+}
+
+.iphone-11__back {
+  position: relative;
+  height: 570px;
+  background-image: url("images/image2.png");
+  background-size: cover;
+}
+
+.iphone-11__copy {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.apple-fukuoka {
+  z-index: 3;
+  padding-top: 10px;
+}
+
+.apple-fukuoka__back {
+  position: relative;
+  height: 570px;
+  background-image: url("images/image3.png");
+  background-size: cover;
+}
+
+.apple-fukuoka__copy {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.headline {
+  color: #fff;
+}
+
+.headline__sub {
+  color: #fff;
+}
+
+.headline11 {
+  color: black;
+}
+
+.headline11__sub {
+  color: black;
+}
+
+.price {
+  color: #808080;
+}
+
+.price__sup {
+  font-size: 0.2rem;
 }
 
 .headline__links__show:after {
