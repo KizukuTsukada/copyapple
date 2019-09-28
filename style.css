@@ -1,0 +1,56 @@
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.head {
+  position: fixed;
+  z-index: 99;
+  height: 44px;
+  width: 100%;
+  background: rgba(45, 45, 45, 0.98);
+}
+
+.head--co {
+  position: relative;
+  z-index: 2;
+  height: 44px;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.head--co--header {
+  position: absolute;
+  line-height: 44px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.head--co--header li {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 0 10px;
+}
+
+.iphone-11-pro {
+  position: relative;
+  z-index: 3;
+  padding-top: 44px;
+}
+
+.headline__links__show:after {
+  font-family: "Font Awesome 5 Free";
+  content: '\f054';
+  font-weight: 900;
+}
+/*# sourceMappingURL=style.css.map */
