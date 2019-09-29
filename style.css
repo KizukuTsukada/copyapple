@@ -6,6 +6,20 @@ li {
   list-style: none;
 }
 
+h2 {
+  font-size: 3em;
+  letter-spacing: -0.03em;
+}
+
+h3 {
+  font-size: 1.5em;
+  letter-spacing: -0.03em;
+}
+
+.fab, .fas {
+  font-size: 19px;
+}
+
 .head {
   position: fixed;
   z-index: 99;
@@ -44,55 +58,70 @@ li {
 
 .iphone-11-pro {
   z-index: 3;
-  padding-top: 44px;
+  padding-top: 40px;
+  height: 625px;
 }
 
 .iphone-11-pro__back {
   position: relative;
-  height: 570px;
+  height: 100%;
+  width: 100%;
   background-image: url("images/image1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
 }
 
 .iphone-11-pro__copy {
   position: absolute;
   width: 100%;
+  padding-top: 47px;
   text-align: center;
 }
 
 .iphone-11 {
   z-index: 3;
   padding-top: 10px;
+  height: 625px;
 }
 
 .iphone-11__back {
   position: relative;
-  height: 570px;
+  height: 100%;
+  width: 100%;
   background-image: url("images/image2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
 }
 
 .iphone-11__copy {
   position: absolute;
   width: 100%;
+  padding-top: 47px;
   text-align: center;
 }
 
 .apple-fukuoka {
   z-index: 3;
   padding-top: 10px;
+  height: 625px;
 }
 
 .apple-fukuoka__back {
   position: relative;
-  height: 570px;
+  height: 100%;
+  width: 100%;
   background-image: url("images/image3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
 }
 
 .apple-fukuoka__copy {
   position: absolute;
   width: 100%;
+  padding-top: 47px;
   text-align: center;
 }
 
@@ -102,6 +131,24 @@ li {
 
 .headline__sub {
   color: #fff;
+  margin-bottom: 0.4em;
+  letter-spacing: -0.07em;
+}
+
+.headline__links {
+  margin-top: 0.6em;
+  font-size: 19px;
+}
+
+.headline__links__show {
+  text-decoration: none;
+  color: #6bf;
+}
+
+.headline__links__buy {
+  margin-left: 21px;
+  text-decoration: none;
+  color: #6bf;
 }
 
 .headline11 {
@@ -110,17 +157,43 @@ li {
 
 .headline11__sub {
   color: black;
+  margin-bottom: 0.4em;
+  letter-spacing: -0.07em;
+}
+
+.headline11__links {
+  margin-top: 0.6em;
+  font-size: 19px;
+}
+
+.headline11__links__show {
+  text-decoration: none;
+  color: #0070c9;
+}
+
+.headline11__links__buy {
+  margin-left: 21px;
+  text-decoration: none;
+  color: #0070c9;
 }
 
 .price {
   color: #808080;
+  font-size: 0.88em;
+  margin-bottom: 0.6em;
 }
 
 .price__sup {
   font-size: 0.2rem;
 }
 
-.headline__links__show:after {
+.headline__links__show:after, .headline__links__buy:after {
+  font-family: "Font Awesome 5 Free";
+  content: '\f054';
+  font-weight: 900;
+}
+
+.headline11__links__show:after, .headline11__links__buy:after {
   font-family: "Font Awesome 5 Free";
   content: '\f054';
   font-weight: 900;

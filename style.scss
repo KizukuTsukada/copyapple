@@ -1,11 +1,20 @@
-html{
-  font-family: 'Noto Sans JP', sans-serif;
+html{ font-family: 'Noto Sans JP', sans-serif; }
+
+li { list-style: none; }
+
+h2 {
+  font-size: 3em;
+  letter-spacing: -0.03em;
+ }
+
+h3 {
+font-size: 1.5em;
+letter-spacing: -0.03em;
 }
 
-li {
-  list-style: none;
+.fab,.fas {
+  font-size: 19px;
 }
-
 
 .head {
   position: fixed;
@@ -13,12 +22,11 @@ li {
   height: 44px;
   width: 100%;
   background: rgba(45,45,45,0.98);
-  &--co {
-    
+  &--co {   
     z-index: 2;
     height: 44px;
     margin: 0 auto;
-  position: relative;    
+    position: relative;    
     max-width: 980px;
     &--header {
       position: absolute;
@@ -38,18 +46,22 @@ li {
 }
 
 .iphone-11-pro {
-  
   z-index: 3;
-  padding-top: 44px;
+  padding-top: 40px;
+  height: 625px;
   &__back{
     position: relative;
-    height: 570px;
+    height: 100%;
+    width: 100%;
     background-image: url("images/image1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
   }
   &__copy {
     position: absolute;
     width: 100%;
+    padding-top: 47px;
     text-align: center;
   }
 }
@@ -57,15 +69,20 @@ li {
 .iphone-11 {
   z-index: 3;
   padding-top: 10px;
+  height: 625px;
   &__back{
     position: relative;
-    height: 570px;
+    height: 100%;
+    width: 100%;
     background-image: url("images/image2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
   }
   &__copy {
     position: absolute;
     width: 100%;
+    padding-top: 47px;
     text-align: center;
   }
 }
@@ -73,15 +90,20 @@ li {
 .apple-fukuoka {
   z-index: 3;
   padding-top: 10px;
+  height: 625px;
   &__back{
     position: relative;
-    height: 570px;
+    height: 100%;
+    width: 100%;
     background-image: url("images/image3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
   }
   &__copy {
     position: absolute;
     width: 100%;
+    padding-top: 47px;
     text-align: center;
   }
 }
@@ -90,6 +112,21 @@ li {
   color: #fff;
   &__sub {
     color: #fff;
+    margin-bottom: 0.4em;
+    letter-spacing: -0.07em;
+  }
+  &__links {
+    margin-top: 0.6em;
+    font-size: 19px;
+    &__show {
+      text-decoration: none;
+      color: #6bf;
+    }
+    &__buy {
+      margin-left: 21px;
+      text-decoration: none;
+      color: #6bf;
+    }
   }
 }
 
@@ -97,18 +134,42 @@ li {
   color: black;
   &__sub {
     color: black;
+    margin-bottom: 0.4em;
+    letter-spacing: -0.07em;
   }
+  &__links {
+    margin-top: 0.6em;
+    font-size: 19px;
+    &__show {
+      text-decoration: none;
+      color: #0070c9;
+    }
+    &__buy {
+      margin-left: 21px;
+      text-decoration: none;
+      color: #0070c9;
+    }
+  }  
 }
 
 .price {
   color: #808080;
+  font-size: 0.88em;
+  margin-bottom: 0.6em;
   &__sup {
     font-size: 0.2rem;
   }
 }
 
-.headline__links__show:after {
+.headline__links__show:after,.headline__links__buy:after {
   font-family: "Font Awesome 5 Free";
   content: '\f054';
   font-weight: 900;
 }
+
+.headline11__links__show:after,.headline11__links__buy:after {
+  font-family: "Font Awesome 5 Free";
+  content: '\f054';
+  font-weight: 900;
+}
+
