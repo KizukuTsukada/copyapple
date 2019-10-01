@@ -57,7 +57,6 @@ h3 {
 }
 
 .iphone-11-pro {
-  z-index: 3;
   padding-top: 40px;
   height: 625px;
 }
@@ -80,7 +79,6 @@ h3 {
 }
 
 .iphone-11 {
-  z-index: 3;
   padding-top: 10px;
   height: 625px;
 }
@@ -103,7 +101,6 @@ h3 {
 }
 
 .apple-fukuoka {
-  z-index: 3;
   padding-top: 10px;
   height: 625px;
 }
@@ -197,5 +194,70 @@ h3 {
   font-family: "Font Awesome 5 Free";
   content: '\f054';
   font-weight: 900;
+}
+
+.box {
+  width: 44%;
+  height: 625px;
+}
+
+.unit1 {
+  position: relative;
+  background-image: url("images/image4.png");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.unit2 {
+  position: relative;
+  background-image: url("images/image5.png");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.unit3 {
+  position: relative;
+  background-image: url("images/image6.png");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.unit4 {
+  position: relative;
+  background-image: url("images/image7.png");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.unit5 {
+  position: relative;
+  background-image: url("images/image8.png");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.unit6 {
+  position: relative;
+  background-image: url("images/image9.png");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */
