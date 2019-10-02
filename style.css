@@ -196,11 +196,6 @@ h3 {
   font-weight: 900;
 }
 
-.box {
-  width: 44%;
-  height: 625px;
-}
-
 .unit1 {
   position: relative;
   background-image: url("images/image4.png");
@@ -259,5 +254,23 @@ h3 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.box {
+  width: 100%;
+  height: 625px;
+}
+
+.boxies {
+  display: -ms-grid;
+  display: grid;
+  gap: 15px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding-top: 15px;
+}
+
+.box__back {
+  padding: 5px;
 }
 /*# sourceMappingURL=style.css.map */
